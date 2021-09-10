@@ -1,0 +1,7 @@
+@mixin pad
+  @media (max-width: 767px)
+    @content
+
+@mixin font($level: 0, $weight: normal)
+  font-size: font($level)
+  font-weight: $weight
